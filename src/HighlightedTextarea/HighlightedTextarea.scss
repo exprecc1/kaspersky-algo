@@ -1,0 +1,60 @@
+.highlighted-textarea-container {
+  position: relative;
+  width: 100%;
+}
+
+.highlighted-textarea {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  color: transparent;
+  background: transparent;
+  caret-color: #000;
+
+  &,
+  &:hover,
+  &:focus {
+    background: transparent;
+  }
+}
+
+.highlight-preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 4px 11px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  line-height: 1.5715;
+}
+
+// Стили для токенов
+.token-logical-operator {
+  color: #d63384;
+}
+
+.token-key {
+  color: #0d6efd;
+}
+
+.token-value {
+  color: #198754;
+}
+
+.token-quote {
+  color: #9200e7;
+}
+
+.token-parenthesis {
+  color: #6f42c1;
+}
+
+.token-equals {
+  color: #6c757d;
+}
+
+.token-text {
+  color: #212529;
+}
